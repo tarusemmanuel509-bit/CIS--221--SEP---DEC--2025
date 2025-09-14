@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Timetable</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>School Timetable</caption>
+        <tr>
+            <th>Day</th>
+            <th>Morning</th>
+            <th>Midmorning</th>
+            <th>Evening</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td></td>
+            <td></td>
+            <td>CIM 217 (2PM - 5PM)<br>DOJO</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td></td>
+            <td>CIR 205 (10AM - 1PM)</td>
+            <td>CIR 209 (1PM - 4PM)<br>DOJO</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>CIT 211 (8AM - 11AM)</td>
+            <td></td>
+            <td>DOJO</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>CIT 207 (9AM - 12PM)</td>
+            <td></td>
+            <td>DOJO</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>CIR 203 (7AM - 9AM)</td>
+            <td>CIS 221 (9AM - 1PM)</td>
+            <td>DOJO</td>
+        </tr>
+    </table>
+</body>
+</html>
