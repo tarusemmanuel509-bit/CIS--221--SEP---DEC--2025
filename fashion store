@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fcefee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 30%;
+      background-color: #fff;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Fashion Store</h1>
+    <p>Your style, our passion!</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <h2>Summer Dress</h2>
+      <p>Light and breezy for sunny days.</p>
+    </div>
+    <div class="product">
+      <h2>Denim Jacket</h2>
+      <p>Perfect for cool evenings.</p>
+    </div>
+    <div class="product">
+      <h2>Classic Sneakers</h2>
+      <p>Comfort meets style.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Offer</th>
+        <th>Discount</th>
+        <th>Valid Until</th>
+      </tr>
+      <tr>
+        <td>Summer Collection</td>
+        <td>30% Off</td>
+        <td>Oct 10, 2025</td>
+      </tr>
+      <tr>
+        <td>Buy 2 Get 1 Free</td>
+        <td>On Accessories</td>
+        <td>Oct 15, 2025</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    &copy; 2025 Fashion Store. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
