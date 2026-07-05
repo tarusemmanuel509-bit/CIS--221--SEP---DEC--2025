@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+ <title> STUDENT ADMISSION CHECK </title>
+</head>
+<body>
+<h2> University Admission check </h2>
+<script>
+var marks = +(prompt("Enter the student marks:"));
+var feePaid = +(prompt("Has the fees been paid?(1-yes/2-No)"));
+var result =
+((marks >= 50) &&(feePaid === 1))? "Student admitted":"Admission Denied";
+document.write(result);
+</script>
+</body>
+</html>

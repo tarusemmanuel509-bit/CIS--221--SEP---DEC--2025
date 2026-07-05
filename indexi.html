@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Changing Case</title></head>
+<body>
+<h2 align="center">Text Formatting</h2>
+<form>
+email Address:<input type="text" id="txtmail" size = "20" value="" />
+<input type="button" id="butsubmit" value="Submit" onClick="stringFormat()" />
+</form>
+<p id="p1"></p> <p id="p2" align="center"></p>
+<script>
+function stringFormat(){
+var mail = document.getElementById("txtmail").value;
+var email = mail.toLowerCase();
+document.getElementById("p1").innerHTML = "Correct email format: " + email;
+var copyRight = "Copyright &#169 2022";
+document.getElementById("p2").innerHTML = copyRight;
+}
+</script>
+</body>
+</html>
